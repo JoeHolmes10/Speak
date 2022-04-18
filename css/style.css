@@ -1,14 +1,17 @@
 @media (min-width: 992px) {
-    .edit {
-        right: 20px;
-        top: 70px;
-        width: inherit !important;
-    }
+
     .sidebar {
-        height: 130vh !important;
+        height: 150vh !important;
+    }
+    .edit {
+        margin: -150vh auto !important;
+        left: 12vw !important;
+        width: 70% !important;
     }
     footer {
-        display:block !important;
+        position: relative !important;
+        top: 150vh !important;
+        width: 100% !important;
     }
     /* CUSTOM WIDTHS */
     .w-lg-10 { width: 10%!important; }
@@ -23,12 +26,9 @@
     .w-sm-10 { width: 10%!important; }
     .w-sm-15 { width: 15%!important; }
     .w-sm-20 { width: 20%!important; }
-    .edit {
-        
-    }
-    footer {
-        display: none ;
-    }
+    /* .edit {
+        width: 70vw;
+    } */
 }
 
 /* MD breakpoint*/
@@ -38,15 +38,17 @@
     .w-md-15 { width: 15%!important; }
     .w-md-20 { width: 20%!important; }
     .edit {
-        right: 20px;
-        top: 70px;
-        width: 55%;
+        margin: -100vh auto ;
+        left: 22vw ;
+        width: 50% ;
+    }
+    footer {
+        position: relative ;
+        top: 100vh ;
+        width: 100% ;
     }
     .sidebar {
         height: 100vh;
-    }
-    footer {
-        display:block !important;
     }
 }
 .w-40 { width: 40%!important; }
